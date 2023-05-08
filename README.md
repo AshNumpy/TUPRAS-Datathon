@@ -1,7 +1,9 @@
 ## Problem Hakkında
 
 Yarışma boyunca TÜPRAŞ’ta bir Veri Bilimci rolü üstlenilecektir. TÜPRAŞ Veri Analitiği ekibinin bir üyesi olarak İngiltere’de bulunan Tüpraş Trading Ltd. iştirakinde kritik öneme sahip olacak bir proje tamamlanması istenmektedir.  
+
 Traderlar tarafından bir hafta sonra benzin ürününde oluşacak talebi tahminleyen bir model üretilmesi beklenmektedir. Modellemeyi yaparken kullanılabilecek veriler ticaret uzmanlarının alan bilgisi dahilinde filtrelenerek paylaşılmıştır `../Datasets/`.  
+
 Oluşturulacak olan model talebin eksiksiz sağlanması, ticari karlılık, yerinde/zamanında lojistik, stok yönetimi ve sürdürülebilirlik gibi birçok konuda kritik değer yaratacaktır.  
 
 ## Veri Seti Hk.
