@@ -21,7 +21,7 @@
     1. [En Yakın Komşu](#nearest-neighbors-en-yakın-komşu)
     1. [Lojistik Regresyon](#logistic-regresyon-ve-türevleri)
     1. [Doğrusal Diskriminant Analizi](#linear-discriminant-analysis-lineer-diskriminant-analizi)
-
+1. [Model Değerlendirme Sonuçları](#model-değerlendirme-sonuçları)
 ---
 
 ## Regresyon Modelleri
@@ -160,7 +160,7 @@ Gradient boosting, zayıf öğrenicilerin bir araya gelerek güçlü bir model o
 
 
 ### Ridge Regresyon
-Ridge regresyon, L2 düzenlemesi kullanarak regresyon yapabilen bir modeldir.
+Ridge regresyon, L2 düzenlemesi kullanarak regresyon yapabilen bir modeldir. L2 düzeltmesi, ağırlıkların karelerinin toplamını kullanarak büyük ağırlıklara ceza verir ve modelin daha istikrarlı bir şekilde çalışmasını sağlar.
 
 **Avantajları:**
 
@@ -175,7 +175,7 @@ Ridge regresyon, L2 düzenlemesi kullanarak regresyon yapabilen bir modeldir.
 
 
 ### Lasso Regresyon
-Lasso regresyon, L1 düzenlemesi kullanarak regresyon yapabilen bir modeldir.
+Lasso regresyon, L1 düzenlemesi kullanarak regresyon yapabilen bir modeldir. L1 düzeltmesi, modelin ağırlıklarını sıfıra yaklaştırarak gereksiz özelliklerin seçilmesini sağlar. Bu özellik seçimi, modelin daha az sayıda önemli özellik üzerinde odaklanmasını ve daha fazla gürültüye duyarlı olmamasını sağlar.
 
 **Avantajları:**
 
@@ -304,3 +304,5 @@ Lineer Diskriminant Analizi, sınıflandırma problemlerinde kullanılan bir mod
 1. Veri setindeki gürültüye karşı hassas olabilir.
 
 ---
+
+## Model Değerlendirme Sonuçları
