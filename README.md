@@ -1,6 +1,7 @@
 <h1 align="center"> TUPRAS Datathon Proje Raporu </h1>
-
-<img src="" height=300>
+<p align="center">
+<img src="https://raw.githubusercontent.com/AshNumpy/TUPRAS-Datathon/main/Images/tupras-logo.jpg" height=250>
+</p>
 
 ## Problem Hakkında
 
