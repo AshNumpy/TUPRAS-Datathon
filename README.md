@@ -56,13 +56,11 @@ Makine öğrenmesi sürecinde çeşitli analizler ve modeller uygulandı (**bkz:
 |XGBoost Regressor|674.70|472.43|0.050|
 |Ridge Regressor|887.15|643.06|0.070|
 
-</div>
-
 <hr width=410>
 
 **Not:**  
 Tahmin edilmesi istenilen hedef değişkenin ortalaması: 9635.77
+  
+</div>
 
 Derin öğrenme sürecinde sadece zamana bağlı değişimi olan hedef değişkeni kullanılarak LSTM modelleri kuruldu ancak en iyi performansı sergileyen LSTM modeli yine de makine öğrenmesi modellerinin önüne geçemedi.
-
-Ancak LSTM modeli değişkendeki dalgalamayı çok iyi yakaladığı için LSTM modelinin tahmin değerleri yeni bir özellik şeklinde veri setine dahil edilip tekrardan makine öğrenmesi modellerine girdi şeklinde verildi:
