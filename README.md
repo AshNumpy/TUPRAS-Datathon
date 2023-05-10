@@ -1,3 +1,7 @@
+<h1 align="center"> TUPRAS Datathon Proje Raporu </h1>
+
+<img src="" height=300>
+
 ## Problem Hakkında
 
 Yarışma boyunca TÜPRAŞ’ta bir Veri Bilimci rolü üstlenilecektir. TÜPRAŞ Veri Analitiği ekibinin bir üyesi olarak İngiltere’de bulunan Tüpraş Trading Ltd. iştirakinde kritik öneme sahip olacak bir proje tamamlanması istenmektedir.  
