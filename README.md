@@ -34,3 +34,35 @@ Oluşturulacak olan model talebin eksiksiz sağlanması, ticari karlılık, yeri
 |gasoline_future_price4 |Vadeli işlemlerde 4 ay ötelemeli benzin fiyatı|
 |gasoline_demand |Benzin talep miktarı|
 |target |Hedef değişken, bir hafta sonraki benzin talebi|
+
+## Veri Setinin Hazırlanması
+Veri işleme sürecinde gerekli ön işlemeler yapıldı (**bkz:**`./Notebooks/1-Exploring.ipynb` & `./Notebooks/File-Manipulation.ipynb`)
+
+Verilerin incelenme sürecinde 2020 yılı Mart ayında keskin bir düşüş yaşandığı görüldü ve buna istinaden pandeminin başlamasını veri setine bir şekilde eklenilmeli şeklinde düşünüldü ve vaka sayısı ile ölüm sayısı değerleri dış veri olarak veri setine eklendi.
+
+Özellik çıkarımı ile tarih sütunu kullanılarak yeni özellikler oluşturuldu (**bkz:**`./Notebooks/1-Exploring.ipynb`). 
+
+## Makine Öğrenmesi & Derin Öğrenme
+Makine öğrenmesi sürecinde çeşitli analizler ve modeller uygulandı (**bkz:**`./Notebooks/5-ML-Study.ipynb`)
+
+Çeşitli modeller çeşitli sebeplerden ötürü denendi/denenmedi. Sonuç olarak aşağıdaki tablo elde edildi:
+
+<div align="center">
+
+|Model                      |RMSE  |MAE   |MAPE |
+|:--------------------------|:----:|:----:|:---:|
+|Random Forest Regressor|621.09| 448.77|0.047|
+|Gradient Boosting Regressor|649.97|492.16|0.052|
+|XGBoost Regressor|674.70|472.43|0.050|
+|Ridge Regressor|887.15|643.06|0.070|
+
+</div>
+
+<hr width=410>
+
+**Not:**  
+Tahmin edilmesi istenilen hedef değişkenin ortalaması: 9635.77
+
+Derin öğrenme sürecinde sadece zamana bağlı değişimi olan hedef değişkeni kullanılarak LSTM modelleri kuruldu ancak en iyi performansı sergileyen LSTM modeli yine de makine öğrenmesi modellerinin önüne geçemedi.
+
+Ancak LSTM modeli değişkendeki dalgalamayı çok iyi yakaladığı için LSTM modelinin tahmin değerleri yeni bir özellik şeklinde veri setine dahil edilip tekrardan makine öğrenmesi modellerine girdi şeklinde verildi:

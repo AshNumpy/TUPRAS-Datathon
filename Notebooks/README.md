@@ -306,3 +306,33 @@ Lineer Diskriminant Analizi, sınıflandırma problemlerinde kullanılan bir mod
 ---
 
 ## Model Değerlendirme Sonuçları
+<div align="center" class="columns" markdown="1">
+
+Tablo: Temel Veri Seti Sonuçları
+
+|Model                      |RMSE  |MAE   |MAPE |
+|:--------------------------|:----:|:----:|:---:|
+|Random Forest Regressor|669.32|485.97|0.051|
+|Gradient Boosting Regressor|733.09|561.01|0.059|
+|XGBoost Regressor|809.38|626.98|0.064|
+|Ridge Regressor|838.64|600.17|0.065|
+
+<br>
+<hr width=450>
+
+Tablo: Özellik Çıkarımı ile Genişletilmiş Veri Seti Sonuçları
+
+|Model                      |RMSE  |MAE   |MAPE |
+|:--------------------------|:----:|:----:|:---:|
+|Random Forest Regressor|621.09| 448.77|0.047|
+|Gradient Boosting Regressor|649.97|492.16|0.052|
+|XGBoost Regressor|674.70|472.43|0.050|
+|Ridge Regressor|887.15|643.06|0.070|
+
+<br>
+<hr width=450>
+
+**Not:**  
+Tahmin edilmesi istenilen hedef değişkenin ortalaması: 9635.77
+
+</div>
